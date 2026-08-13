@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Registration Page</title>
+</head>
+<body>
+     <center>
+
+        <h1 style="color: rgb(164, 97, 8);"> Student Registration Page </h1><br>
+     </center><hr>
+     <center>
+        <table >
+           <form action="Login">
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" placeholder="Enter the username" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="5" cols="20" placeholder="Enter your Address" value="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female" required> Female
+                        <input type="radio" name="gender" value="Other" required> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skills:</td>
+                    <td><input type="checkbox" name="skills" value="Python" > Python
+                        <input type="checkbox" name="skills" value="HTML" > HTML<br>
+                        <input type="checkbox" name="skills" value="Data Analysis" > Data Analysis
+                        <input type="checkbox" name="skills" value="Data Science" >Data Science
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select name="Country" required>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                            <option value="Brazil">Brazail</option>
+                            <option value="Amerika">Amerika</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" align="center"><br>
+                        <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: cornflowerblue;">Submit Form</button>
+                    </td>
+                </tr>
+
+           </form>
+
+        </table>
+        
+     </center>
+</body>
+</html>
